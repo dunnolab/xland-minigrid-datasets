@@ -1,6 +1,8 @@
-# XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning
+<h1 align="center"> XLand-100B</h1>
 
 Official code for the **XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning** paper. We provide the utilities used to collect the datasets as well as the code used for experiments. As these parts are semantically unrelated, they are split into separate directories for simplicity (in the cleanrl style). See the README in each directory for instructions.
+
+![table](table.png)
 
 ## Dependencies
 
@@ -26,8 +28,8 @@ curl -L -o xland-trivial-20b.hdf5 https://sc.link/A4rEW
 curl -L -o xland-100b.hdf5 https://sc.link/MoCvZ
 ```
 
-# Citing
+## Citing
 
-If you use this code for your research, please consider the following BibTeX:
+If you use this code or datasets for your research, please consider the following BibTeX:
 
 TODO
