@@ -1,0 +1,17 @@
+entity: dunnolab
+project: xminigrid-datasets
+program: src/xminigrid_datasets/collection/train.py
+method: grid
+parameters:
+  config_path:
+    value: "configs/medium_base.yaml"
+  group:
+    value: "xland-minigrid-datasets-medium-v0"
+  dataset_path:
+    value: "/home/jovyan/nikulin/data/medium-10k-v0"
+  dataset_num_histories:
+    value: 32
+  ruleset_id:
+    min: 0
+    max: 10000
+    distribution: int_uniform

@@ -1,0 +1,15 @@
+jax>=0.4.16
+jaxlib>=0.4.16
+flax>=0.8.0
+rich>=13.4.2
+chex>=0.1.85
+imageio>=2.31.2
+imageio-ffmpeg>=0.4.9
+xminigrid>=0.7.0
+wandb>=0.15.10
+pyrallis>=0.3.1
+distrax>=0.1.4
+optax>=0.1.5
+orbax-checkpoint>=0.5.9
+h5py>=3.10.0
+huggingface_hub>=0.22.2

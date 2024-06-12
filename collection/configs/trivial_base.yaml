@@ -1,0 +1,17 @@
+env_id: "XLand-MiniGrid-R1-9x9"
+benchmark_id: "trivial-1m"
+ruleset_id: 0
+pretrain_multitask: False
+total_timesteps: 500_000_000
+num_envs: 8192
+num_steps: 512
+num_minibatches: 8
+gae_lambda: 0.999
+gamma: 0.999
+context_hidden_dim: 256
+context_dropout: 0.0
+head_hidden_dim: 256
+rnn_hidden_dim: 256
+lr: 0.0005
+ent_coef: 0.001
+seed: 0
