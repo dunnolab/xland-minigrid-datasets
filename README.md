@@ -1,8 +1,8 @@
 # XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning
 
-Official code for the 'XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning' paper. We provide the utilities used to collect the datasets as well as the code used for experiments with the baselines, namely AD and DPT. As these parts are semantically unrelated, they are separated into separate directories for simplicity (in the cleanrl style).
+Official code for the **XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning** paper. We provide the utilities used to collect the datasets as well as the code used for experiments with the baselines. As these parts are semantically unrelated, they are separated into separate directories for simplicity (in the cleanrl style).
 
-Both XLand-100B and XLand-Trivial-20B hosted on public S3 bucket and freely available for everyone under CC BY-SA 4.0 Licence. See the README in each directory for instructions.
+Both **XLand-100B** and **XLand-Trivial-20B** hosted on public S3 bucket and freely available for everyone under CC BY-SA 4.0 Licence. See the README in each directory for instructions.
 
 ## Downloading the datasets
 
