@@ -1,8 +1,10 @@
-<h1 align="center"> XLand-100B</h1>
+<h1 align="center"> XLand-100B: A Large-Scale Multi-Task Dataset for In-Context RL</h1>
 
 Official code for the **XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning** paper. We provide the utilities used to collect the datasets as well as the code used for experiments. As these parts are semantically unrelated, they are split into separate directories for simplicity (in the cleanrl style). See the README in each directory for instructions.
 
-![table](table.png)
+<p align="center">
+    <img src="table.png" style="width: 60%; height: 60%"/>
+</p>
 
 ## Dependencies
 
