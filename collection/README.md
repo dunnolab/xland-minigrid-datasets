@@ -4,6 +4,14 @@ Here we provide the code used to collect the datasets. We adapted the single-tas
 
 If you notice any discrepancies with the paper, don't be afraid to open an issue and report about it! 
 
+## Dependencies
+
+To install project dependencies, execute:
+```
+pip install -r requirements.txt
+```
+For correct JAX installation on the GPU/TPU, please follow [the official instructions](https://jax.readthedocs.io/en/latest/installation.html).
+
 ## Pretraining
 
 Pretraining is simple. We provide config for pretraining in `configs/pretrain_base.yaml`. To start:
