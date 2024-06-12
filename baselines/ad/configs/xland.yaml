@@ -1,0 +1,30 @@
+project: "xland-benchmarks"
+name: "xland-ad"
+train_micro_batch_size_per_gpu: 64
+embedding_dim: 64
+hidden_dim: 512
+num_layers: 8
+num_heads: 8
+seq_len: 4096
+warmup_ratio: 0.05
+betas: (0.9, 0.99)
+weight_decay: 0.0
+clip_grad: 1.0
+num_workers: 32
+label_smoothing: 0.0
+eval_every: 25_000
+eval_episodes: 200
+train_rulesets: 10
+eval_rulesets: 30
+subsample: 1
+# deepspeed
+adam_w_mode: False
+zero_stage: 2  # stage of ZeRO
+# general params
+attention_dropout: 0.0
+residual_dropout: 0.0
+embedding_dropout: 0.1
+learning_rate: 1e-3
+train_seed: 42
+data_seed: 0
+eval_seed: 42

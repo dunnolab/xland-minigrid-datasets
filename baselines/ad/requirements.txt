@@ -1,0 +1,10 @@
+deepspeed~=0.14.2
+gymnasium~=0.29.1
+numpy~=1.26.4
+torch~=2.3.0
+xminigrid~=0.8.0
+h5py~=3.11.0
+matplotlib~=3.9.0
+jax~=0.4.28
+pyrallis~=0.3.1
+wandb~=0.17.0
