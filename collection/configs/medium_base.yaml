@@ -1,0 +1,19 @@
+env_id: "XLand-MiniGrid-R1-13x13"
+benchmark_id: "medium-1m"
+pretrain_multitask: False
+total_timesteps: 1_000_000_000
+num_envs: 8192
+num_steps: 256
+num_minibatches: 8
+gae_lambda: 0.999
+gamma: 0.995
+context_hidden_dim: 64
+context_dropout: 1.0
+head_hidden_dim: 256
+rnn_hidden_dim: 1024
+lr: 0.0005
+ent_coef: 0.001
+use_bf16: True
+eval_episodes: 256
+# this is the example, please overwrite it from the command line
+pretrained_checkpoint_path: "checkpoints/pretrained"
