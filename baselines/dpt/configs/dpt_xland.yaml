@@ -1,0 +1,32 @@
+# general paraams
+attention_dropout: 0.0
+clip_grad: 1.0
+data_seed: 0
+embedding_dim: 64
+embedding_dropout: 0.1
+hidden_dim: 256
+label_smoothing: 0.0
+learning_rate: 0.001
+normalize_qk: false
+num_heads: 8
+num_layers: 8
+num_workers: 0
+pre_norm: true
+residual_dropout: 0.0
+samples_per_task: 370
+seq_len: 4096
+train_seed: 1
+update_epochs: 3
+warmup_ratio: 0.05
+weight_decay: 0.0001
+with_prior: true
+# eval params
+train_rulesets: 5
+eval_episodes: 300
+eval_every: 10000
+eval_rulesets: 15
+eval_seed: 42
+# deepspeed
+adam_w_mode: false
+zero_stage: 2
+train_micro_batch_size_per_gpu: 64
