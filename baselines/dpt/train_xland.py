@@ -340,7 +340,6 @@ def train(config: TrainConfig):
         wandb.init(
             project=config.project,
             group=config.group,
-            entity="dunnolab",
             name=config.name,
             config=dict_config,
         )
