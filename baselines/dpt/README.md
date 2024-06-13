@@ -4,6 +4,7 @@ This is DPT baseline. It uses deepspeed with ZeRO 2 for distributed training. To
 
 ```commandline
 export WORLD_SIZE=$(nvidia-smi -L | wc -l)
+export XLA_PYTHON_CLIENT_PREALLOCATE=false
 
 deepspeed --num_gpus "$WORLD_SIZE" train_xland.py \
     --config_path='configs/dpt_xland.yaml' \
@@ -14,6 +15,7 @@ deepspeed --num_gpus "$WORLD_SIZE" train_xland.py \
 To evaluate a model, run
 ```commandline
 export WORLD_SIZE=$(nvidia-smi -L | wc -l)
+export XLA_PYTHON_CLIENT_PREALLOCATE=false
 
 deepspeed --num_gpus "$WORLD_SIZE" evaluate_in_context.py \
   --config_path='configs/dpt_xland.yaml' \
