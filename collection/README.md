@@ -92,3 +92,7 @@ python combine.py \
     --combined-path=your-combined-path \
     --final-return-thrs=0.3 \
 ```
+
+## References
+
+Nikulin, A., Kurenkov, V., Zisman, I., Agarkov, A., Sinii, V., & Kolesnikov, S. (2023). XLand-minigrid: Scalable meta-reinforcement learning environments in JAX. arXiv preprint arXiv:2312.12044

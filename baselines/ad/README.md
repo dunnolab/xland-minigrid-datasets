@@ -19,3 +19,7 @@ deepspeed --num_gpus "$WORLD_SIZE" evaluate_in_context.py \
   --eval_rulesets=1024 \
   --eval_episodes=500
 ```
+
+## References
+
+Laskin, M., Wang, L., Oh, J., Parisotto, E., Spencer, S., Steigerwald, R., ... & Mnih, V. (2022). In-context reinforcement learning with algorithm distillation. arXiv preprint arXiv:2210.14215.

@@ -25,3 +25,7 @@ deepspeed --num_gpus "$WORLD_SIZE" evaluate_in_context.py \
   --eval_episodes=500 \
   --seq_len=4096 \
 ```
+
+## References
+
+Lee, J., Xie, A., Pacchiano, A., Chandak, Y., Finn, C., Nachum, O., & Brunskill, E. (2024). Supervised pretraining can learn in-context reinforcement learning. Advances in Neural Information Processing Systems, 36.
