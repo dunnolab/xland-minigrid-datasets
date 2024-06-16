@@ -64,5 +64,12 @@ docker run --itd --rm --gpus all -v $(pwd):/workspace --name xland-dataset xland
 
 If you use this code or datasets for your research, please consider the following BibTeX:
 
-TBD
+```
+@article{nikulin2024xland,
+  title={XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning},
+  author={Nikulin, Alexander and Zisman, Ilya and Zemtsov, Alexey and Sinii, Viacheslav and Kurenkov, Vladislav and Kolesnikov, Sergey},
+  journal={arXiv preprint arXiv:2406.08973},
+  year={2024}
+}
 
+```
