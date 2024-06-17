@@ -59,6 +59,11 @@ We provide specific dependencies for experiments and data collection in the appr
 docker build . -t xland-dataset
 docker run --itd --rm --gpus all -v $(pwd):/workspace --name xland-dataset xland-dataset
 ```
+## Appreciation
+
+This work was supported by [Artificial Intelligence Research Institute](https://airi.net/?force=en) (AIRI).
+
+<img src="logo.png" align="center" width="20%" style="margin:15px;">
 
 ## Citing
 
