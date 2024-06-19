@@ -32,7 +32,7 @@ curl -L -o xland-100b.hdf5 https://sc.link/MoCvZ
 
 ## What's inside
 
-The datasets are stored in [hdf5](https://github.com/HDFGroup/hdf5) format. For each task, we provide 32 complete learning histories and all the metadata necessary for evaluation, such as environment, benchmark and task IDs from XLand-MiniGrid. Each learning history stores `states`, `actions`, `rewards`, `dones` and `expert_actions` sequentially, without splitting into individual episodes (for convenient cross-episode sequences sampling for training). `expert_actions` are relabeled with the final policy and needed for [DPT](https://arxiv.org/abs/2306.14892)-like methods (see paper for the details).
+The datasets are stored in [hdf5](https://github.com/HDFGroup/hdf5) format. For each task, we provide 32 complete learning histories and all the metadata necessary for evaluation, such as environment, benchmark and task IDs from XLand-MiniGrid (see `.attrs` property for each history). Each learning history stores `states`, `actions`, `rewards`, `dones` and `expert_actions` sequentially, without splitting into individual episodes (for convenient cross-episode sequences sampling for training). `expert_actions` are relabeled with the final policy and needed for [DPT](https://arxiv.org/abs/2306.14892)-like methods (see paper for the details).
 
 | Name           | Dtype      | Shape (XLand-Trivial-20B) | Shape (XLand-100B) |
 |----------------|------------|---------------------------|--------------------|
