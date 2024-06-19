@@ -78,3 +78,62 @@ If you use this code or datasets for your research, please consider the followin
 }
 
 ```
+
+## Dataset Metadata
+
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><code itemprop="name">XLand-100B</code></td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/dunno-lab/xland-minigrid-datasets</code></td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td><code itemprop="description">A large-scale dataset for in-context reinforcement learning based on the XLand-MiniGrid environment. It contains complete learning histories for nearly 30,000 different tasks, covering 100B transitions and 2.5B episodes.</code></td>
+  </tr>
+  <tr>
+    <td>provider</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">AIRI</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>license</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/CreativeWork" itemprop="license">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">CC BY-SA 4.0</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
