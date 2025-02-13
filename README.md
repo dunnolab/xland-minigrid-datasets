@@ -24,10 +24,10 @@ We advise starting with Trivial dataset for debugging due to smaller size and fa
 Datasets can be downloaded with the curl utility (or any other like wget) as follows:
 ```commandline
 # XLand-Trivial-20B, approx 60GB size
-curl -L -o xland-trivial-20b.hdf5 https://sc.link/A4rEW
+curl -L -o xland-trivial-20b.hdf5 https://tinyurl.com/trivial-10k
 
 # XLand-100B, approx 325GB size
-curl -L -o xland-100b.hdf5 https://sc.link/MoCvZ
+curl -L -o xland-100b.hdf5 https://tinyurl.com/medium-30k
 ```
 
 ## What's inside
